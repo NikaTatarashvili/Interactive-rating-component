@@ -1,0 +1,49 @@
+.feedback-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1e1e1e;
+  }
+  
+  .feedback-card {
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    width: 300px;
+  }
+  
+  .rating-options {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .rating-options button {
+    background-color: #444;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .rating-options button.selected {
+    background-color: #ff762e;
+  }
+  
+  .submit-btn {
+    background-color: #ff762e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .submit-btn:disabled {
+    background-color: #777;
+  }
